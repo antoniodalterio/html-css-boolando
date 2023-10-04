@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style: none;
+}
+
+/* 
+********
+Main
+********
+ */
+
 .container {
     display: flex;
     margin: 30px auto;
@@ -17,8 +27,53 @@
 
 }
 
+.content {
+    position: relative;
+}
+
+
 .box {
     min-width: calc(450px - 40px);
     height: 700px;
     background-color: brown;
+    padding: 2px;
+}
+
+img {
+    width: calc(450px - 40px);
+    min-height: 640px;
+}
+
+.marca {
+    font-size: 16px;
+}
+
+.prezzo {
+    color: red;
+    font-weight: 600;
+}
+
+.prezzo span {
+    text-decoration: line-through;
+    color: black;
+    font-weight: normal;
+}
+
+div.content span {
+    padding: 8px 10px;
+    background-color: green;
+}
+
+.sconto {
+    position: absolute;
+    bottom: 50px;
+}
+
+#hearts {
+    padding: 10px 20px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-size: 30px;
 }

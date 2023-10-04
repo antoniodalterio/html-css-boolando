@@ -36,7 +36,8 @@ header {
     box-shadow: 1px 1px 5px black;
 }
 
-header .nav {
+header .nav,
+footer .nav-footer {
     display: flex;
     max-width: 1300px;
     padding: 15px 0px;
@@ -56,7 +57,8 @@ header img {
     vertical-align: middle;
 }
 
-header ul.menu {
+header ul.menu,
+footer ul.menu {
     display: flex;
 
 
@@ -149,6 +151,31 @@ div.content span {
     right: 0;
     font-size: 35px;
     z-index: 3;
+}
+
+/* 
+********
+Footer
+********
+ */
+footer {
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.info {
+    display: flex;
+}
+
+footer ul li {
+    margin: 10px;
+    margin-left: 0;
+}
+
+footer i {
+    font-size: 20px;
+    text-align: center;
 }
 
 /* 

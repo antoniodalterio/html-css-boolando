@@ -185,7 +185,11 @@ footer i {
  */
 
 .img-second:hover {
+    zoom: 1;
+    filter: alpha (opacity=50);
     opacity: 1;
+    transition: opacity .8s ease-in-out;
+
 }
 
 .hearts:hover {
